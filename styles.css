@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,102,0,1) 0%, rgba(255,178,0,1) 33%, rgba(255,13,0,1) 50%, rgba(255,178,0,1) 68%, rgba(255,102,0,1) 100%);;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+    gap: 15px;
+    padding: 25px;
+}
+
+main h3 {
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+}
+
+main img {
+    height: 140px;
+}
+
+.content-links {
+    background: #0000BA;
+    border-radius: 20px;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    padding: 20px 14px;
+    
+}
+
+.link {
+  
+    width: 305px;
+    background-color: #FF6600;
+    border-radius: 30px;
+    padding: 6px;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.link a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    gap: 8px;
+    padding: 0 8px;
+        
+}
+
+.link a h2 {
+    /* min-width: 180px; */
+    font-size: 20px;
+    flex: 1 1 auto;
+    text-align: center;
+
+}
+
+.link-i {
+    display: inline-flex;
+    font-size: 24px;
+    
+}
+
+footer h2 {
+    color:#fff;
+    font-size: 14px;
+    margin-bottom: 14px;
+    font-family: "Outfit", sans-serif;
+    
+}
